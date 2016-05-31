@@ -1,5 +1,3 @@
-# STEP-BY-STEP
-
 ## 环境
 
 环境通过vagrant搭建在虚拟机上
