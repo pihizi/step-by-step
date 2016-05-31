@@ -48,6 +48,11 @@ sudo apt-get install nginx
 
 #### 配置
 
+```shell
+curl -L https://raw.githubusercontent.com/pihizi/step-by-step/master/ENV/site-test > /etc/nginx/sites-enabled/10-site-test
+sudo service nginx reload
+```
+
 ### 在虚拟机上安装docker
 
 [参照官方手册](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
@@ -61,5 +66,6 @@ docker pull php:5.6-fpm
 ### 启动php docker
 
 ```shell
+# 在www目录的上级目录执行以下命令
 docker run -d -p 9000:9000 --name myphp -v "$PWD/www":/var/www/src php:5.6-fpm
 ```
