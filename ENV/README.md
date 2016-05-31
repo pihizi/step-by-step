@@ -2,7 +2,7 @@
 
 环境通过vagrant搭建在虚拟机上
 
-### vagrant up 如果已经启动了服务器，跳过此节
+### vagrant up
 
 ```shell
 # -*- mode: ruby -*-
