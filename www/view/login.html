@@ -1,0 +1,9 @@
+<h1>Login</h1>
+<?php if (!empty($error)) {?>
+  <h2><?=$error?>.</h2>
+<?php }?>
+  <form method="post">
+    <div><label>用户名:</label><input type="text" name="name" /></div>
+    <div><label>密码:</label><input type="password" name="password" /></div>
+    <input type="submit"/>
+  </form>
